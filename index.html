@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Digital privacy DIY solutions for homes and businesses | TECH SAVIOURS .ORG</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description"
+        content="Tutorials: Hosted server solutions, VPN encryption, data backups, phone, desktop and parental controls: TECH SAVIOURS .ORG get back your privacy." />
+    <meta name="keywords"
+        content="Server Setup, Email, Digital Privacy, Privacy, VPN, Encryption, Linux, Android, Backup, Parental Control">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="TECH SAVIOURS .ORG" />
+    <link rel="icon" type="image/x-icon" href="assets/img/org-favicon.webp" />
+
+    <!-- Fork Awesome icons -->
+    <link rel="stylesheet" href="css/fork-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css"
+        integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous"> -->
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link rel="preload, stylesheet" href="css/styles.css" as="style" />
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="assets/img/org-navbar-logo-white.webp"
+                    alt="" /></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                Menu
+                <i class="fa fa-bars ml-1"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ml-auto">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/news">News</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger"
+                            href="https://wiki.techsaviours.org">Wiki</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Why?</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#tutorials">Tutorials</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#freeservices">Services</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="about.html">About</a></li> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown">
+                            &#160;&#160;&#160;&#160;&#160;&#160;<i class="fa fa-language" style="font-size:20px;"></i>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="index-de.html" rel="de_DE">German</a>
+                            <a class="dropdown-item" href="#" rel="en_EN">English</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead">
+
+        <!-- INFO ALERT -->
+        <div class="alert alert-success alert-dismissible fade show" role="info">
+            <strong>Arch Linux & KDE <u>tutorial</u> is done 🍻 <br><a
+                    href="https://wiki.techsaviours.org/en/server/operating_systems/arch_linux">Have a look</a>
+                !</strong>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <!-- INFO END -->
+
+        <div class="container">
+            <div class="masthead-subheading text-uppercase">
+                <div class="masthead-heading text-uppercase"><br><br>
+                    <img src="assets/img/org-navbar-logo-white.webp" alt="logo" />
+                </div><br><br>
+                <div class="d-flex h-100 text-center align-items-center">
+                    <div class="w-100 text-white">
+                        <h1 class="display-6">
+                            Welcome to TECH SAVIOURS </a><i><u>.ORG</u></i><br>
+                            WHERE PRIVACY MATTERS<br><br>
+                            <span style="font-weight: bold;">PEACE OF MIND COMES WITH OWNING YOUR OWN:</span>
+                        </h1>
+                        <div id="carouselContent" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active text-center p-4">
+                                    <b><a style="font-size: 1.5rem; color: #ffad45ff;">SERVER</a></b>
+                                </div>
+                                <div class="carousel-item text-center p-4">
+                                    <b><a style="font-size: 1.5rem; color: #ffad45ff;">PHONE</a></b>
+                                </div>
+                                <div class="carousel-item text-center p-4">
+                                    <b><a style="font-size: 1.5rem; color: #ffad45ff;">COMPUTER</a></b>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselContent" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselContent" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="false"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <br><br><br><br><br><br><br><br>
+                    </div>
+                </div>
+            </div>
+    </header>
+
+
+    <!-- Privacy -->
+    <section class="page-section justify-content-center" id="services">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Get back your privacy</h2>
+                <h3 class="section-subheading text-muted">The most important day to protect yourself online was
+                    yesterday, but taking steps today is next best - don’t leave your digital privacy to chance!</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="services-item">
+                        <a class="services-link" data-toggle="modal" href="#servicesModal1">
+                            <div class="services-hover">
+                                <div class="services-hover-content"><i class="fa fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/services/server.webp" alt="" />
+                        </a>
+                        <div class="services-caption">
+                            <div class="services-caption-heading">Server</div>
+                            <div class="services-caption-subheading text-muted">
+                                Your own server - for your peace of mind.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="services-item">
+                        <a class="services-link" data-toggle="modal" href="#servicesModal2">
+                            <div class="services-hover">
+                                <div class="services-hover-content"><i class="fa fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/services/phone.webp" alt="Digital Privacy" />
+                        </a>
+                        <div class="services-caption">
+                            <div class="services-caption-heading">Phone</div>
+                            <div class="services-caption-subheading text-muted">Keep your communication encrypted,
+                                secure and untraceable.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0"><a name="repair"></a>
+                    <div class="services-item">
+                        <a class="services-link" data-toggle="modal" href="#servicesModal3">
+                            <div class="services-hover">
+                                <div class="services-hover-content"><i class="fa fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/services/desktop.webp" alt="" />
+                        </a>
+                        <div class="services-caption">
+                            <div class="services-caption-heading">Computer</div>
+                            <div class="services-caption-subheading text-muted">Protect the personal data on all your
+                                desktop devices.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="center-service col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                    <div class="services-item">
+                        <a class="services-link" data-toggle="modal" href="#servicesModal4">
+                            <div class="services-hover">
+                                <div class="services-hover-content"><i class="fa fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/services/backup.webp" alt="" />
+                        </a>
+                        <div class="services-caption">
+                            <div class="services-caption-heading">Backup</div>
+                            <div class="services-caption-subheading text-muted">Keep your learning journey safe.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Tutorials -->
+    <section class="page-section bg-dark text-white" id="tutorials">
+        <div class="container">
+            <div class="text-center">
+                <small>
+                    <div class="alert alert-info alert-dismissible fade show" role="info">
+                        <strong>The wiki is still in progress.</strong>
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                </small>
+                <h2 class="section-heading text-uppercase">Follow the Tutorials</h2>
+                <h3 class="section-subheading text-muted">Get your digital privacy under control.<br><br>
+                    <small>Straight to the <a href="https://wiki.techsaviours.org">Wiki</a></small>
+                </h3>
+            </div>
+            <ul class="timeline">
+                <li class="timeline-inverted">
+                    <div class="timeline-image"><img class="rounded-circle img-fluid"
+                            src="assets/img/services/server.webp" style="height: 100%;" alt="server" />
+                    </div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="subheading">Your own server</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">Centralise your IT management, protect your precious information, and
+                                make your home (or business) more efficient and private.<br />
+                                <br />
+                            </p>
+                            <b class="text-muted">Operating Systems</b>
+                            <ul>
+                                <li><a href="https://wiki.techsaviours.org/en:server:operating_systems:arch_linux">Arch
+                                        Linux</a></li>
+                            </ul>
+                            <b class="text-muted">Services</b>
+                            <ul>
+                                <li><a href="https://wiki.techsaviours.org/en:server:services:searx">Searx</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline">
+                    <div class="timeline-image"><img class="rounded-circle img-fluid"
+                            src="assets/img/services/phone.webp" style="height: 100%;" alt="phone" /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="subheading">Your own phone</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">Start taking back the ownership of your own phone and delete all the
+                                unwanted applications.<br>
+                                <br>
+                            </p>
+                            <b class="text-muted">Operating Systems</b>
+                            <ul>
+                                <li><a href="https://wiki.techsaviours.org/en:phone:operating_systems:android">Android
+                                    </a></li>
+                            </ul>
+                            <b class="text-muted">Apps</b>
+                            <ul>
+                                <li><a href="https://wiki.techsaviours.org/en:phone:apps:magisk">Magisk</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-image"><img class="rounded-circle img-fluid"
+                            src="assets/img/services/desktop.webp" style="height: 100%;" alt="desktop" /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="subheading">Your own computer</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">Skip the mainstream and install only what you really need.<br />
+                                <br />
+                            </p>
+                            <b class="text-muted">Operating Systems</b>
+                            <ul>
+                                <li><a href="https://wiki.techsaviours.org/en:desktop:operating_systems:arch_linux">Arch
+                                        Linux</a></li>
+                            </ul>
+                            <b class="text-muted">Services</b>
+                            <ul>
+                                <li><a href="https://wiki.techsaviours.org/en:desktop:services:dnscrypt">DNSCrypt</a>
+                                </li>
+                                <li><a href="https://wiki.techsaviours.org/en:desktop:services:searx">Searx</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline">
+                    <div class="timeline-image"><img class="rounded-circle img-fluid"
+                            src="assets/img/services/backup.webp" style="height: 100%;" alt="backup" /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="subheading">Your own backup</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">Create your own backup schedule as you like. And keep your sensitive
+                                data on your own server.</p><br />
+                            <br />
+                            <ul>
+                                <li><a href="https://wiki.techsaviours.org/en:backup:server">Server</a></li>
+                                <li><a href="https://wiki.techsaviours.org/en:backup:phone">Phone</a></li>
+                                <li><a href="https://wiki.techsaviours.org/en:backup:desktop">Desktop</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-image"><img class="rounded-circle img-fluid"
+                            src="assets/img/services/question.webp" style="height: 100%;" alt="phone" /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="subheading">Your own extras</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">What could it be?<br>
+                                <br>
+                            <ul>
+                                <li><a href="https://wiki.techsaviours.org/en:extras">? (mid 2022)</a></li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <br>
+                <li class="timeline">
+                    <div class="timeline-image">
+                        <h4>Your<br />Privacy<br />Matters!</h4>
+                    </div>
+                </li>
+            </ul>
+            <br />
+            <br />
+        </div>
+    </section>
+
+    <!-- Free Services-->
+    <section class="page-section bg-light" id="freeservices">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Free Services</h2>
+                <h3 class="section-subheading text-muted">Feel free to use our services.</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="assets/img/services/chat.webp" alt="chat" />
+                        <h4>Matrix & Jitsi</h4>
+                        <span>Your encrypted messenger and videoconference</span><br>
+                        <small class="text-muted">
+                            Matrix is an open source project that publishes the Matrix open
+                            standard for secure, decentralised, real-time communication, and
+                            its Apache licensed reference implementations.<br>
+                            <br>
+                            Jitsi is a collection of free and open-source multiplatform voice, videoconferencing and
+                            instant messaging
+                            applications for the web platform, Windows, Linux, macOS, iOS and Android.
+                            <br>
+                        </small>
+                        <a href="https://chat.techsaviours.org">Matrix</a> <small class="text-muted">and</small> <a
+                            href="https://meet.techsaviours.org">Jitsi</a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="assets/img/services/dnscrypt.webp"
+                            alt="DNSCrypt&Unbound" />
+                        <h4>DNSCrypt & Unbound</h4>
+                        <span>Your Encrypted DNS Server</span><br>
+                        <br>
+                        <small class="text-muted">
+                            DNSCrypt is a network protocol that authenticates and encrypts
+                            Domain Name System (DNS) traffic between the user's computer and
+                            recursive name servers.<br>
+                            It includes <a href="https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS"
+                                target="blank" rel="external nofollow noopener">Anonymized DNS</a>.<br>
+                            <br>
+                            Unbound is a validating, recursive, and caching DNS resolver.<br>
+                            It also includes
+                            <a href="https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions"
+                                target="blank" rel="external nofollow noopener">DNSSEC</a>.<br>
+                            <br>
+                        </small>
+                        <a href="tutorials.html#dnscrypt">Connect <i class="fa fa-link"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="assets/img/services/needle.webp" alt="needle" />
+                        <h4>Searx</h4>
+                        <span>Your Privacy-respecting metasearch engine</span><br>
+                        <br>
+                        <small class="text-muted">
+                            Searx is a free internet metasearch engine which aggregates
+                            results from more than 70 search services.<br>
+                            <br>
+                            Users are neither tracked nor profiled. Additionally, searx can be used over Tor
+                            for online anonymity.<br>
+                            <br>
+                            Get started with searx by using</small>
+                        <a href="https://searx.techsaviours.org">our Searx-instance</a>,
+                        <a href="https://wiki.techsaviours.org/en:server:services:searx">your own</a> <small
+                            class="text-muted">or one of the</small>
+                        <a href="https://searx.space/" rel="external nofollow noopener">other Searx-instances</a>.
+                        </small>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="assets/img/services/git.webp" alt="Gitea" />
+                        <h4>Gitea</h4>
+                        <span>Your painless, self-hosted Git service</span><br>
+                        <br>
+                        <small class="text-muted">
+                            Gitea is a community managed lightweight code hosting solution written in Go. It is
+                            published under the
+                            MIT license.
+                            <br>
+                            <br>
+                        </small>
+                        <a href="https://git.techsaviours.org">Join <i class="fa fa-code-fork"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container justify-content-center text-center">
+        <a href="pgp-keys.html">Open PGP Keys</a>
+    </div>
+    <br>
+
+    <!-- Footer-->
+    <footer class="footer bg-dark py-4">
+        <div class="container">
+            <div class="go-top">
+                <a href="#">
+                    <i class="fa fa-angle-up"></i>
+                </a>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-lg-left">
+                    <a rel="external nofollow noopener license"
+                        href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License"
+                            style="height: auto; width: 80px;" src="assets/img/license.webp" />&nbsp;&nbsp;Creative
+                        Commons License</a>
+                </div>
+                <div class="col-lg-4 my-3 my-lg-0">
+                    <a class="btn btn-dark btn-social" href="mailto:welcome@techsaviours.org">
+                        <i class="fa fa-at"></i></a>
+                    <a class="btn btn-dark btn-social" href="https://fosstodon.org/@techsaviours">
+                        <i class="fa fa-mastodon"></i></a>
+                    <a class="btn btn-dark btn-social" href="https://chat.techsaviours.org">
+                        <i class="fa fa-matrix-org"></i></a>
+                    <a class="btn btn-dark btn-social" href="https://git.techsaviours.org/">
+                        <i class="fa fa-gitea"></i>
+                    </a>
+                    <a class="btn btn-dark btn-social" href="https://github.com/TECH-SAVIOURS-ORG">
+                        <i class="fa fa-github"></i>
+                    </a>
+                    <a class="btn btn-dark btn-social" href="https://www.reddit.com/r/TECHSAVIOURS_ORG/">
+                        <i class="fa fa-reddit"></i></a>
+                    <a class="btn btn-dark btn-social" href="https://twitter.com/techsavioursorg">
+                        <i class="fa fa-twitter"></i></a>
+                </div>
+                <div class="col-lg-4 text-lg-right">
+                    <a class="mr-3" href="privacy-policy.html">Privacy Policy</a>
+                    <a href="terms-and-conditions.html">Terms and Conditions</a>
+                </div>
+            </div>
+        </div>
+        <!-- <hr style="height:1px;border-width:0;color:rgb(255, 255, 255);background-color:rgb(5, 5, 5)">
+        Copyright © <a style="font-style: normal;">TECH <b>SAVIOURS</b></a> <br>2019 - 2021 -->
+    </footer>
+
+    <!-- Privacy -->
+    <!-- Modal 1-->
+    <div class="services-modal modal fade" id="servicesModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
+                </div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <h1 class="text-uppercase">WHY HAVE YOUR OWN SERVER?</h1>
+                                <p class="item-intro text-muted">
+                                    There are instances when owning your own server, either for your home or office, is
+                                    the ideal solution to maximise your digital privacy.<br>
+                                </p>
+                                <br>
+                                <p>
+                                    If you have any concerns about your individual or your family’s digital
+                                    privacy. A server is a perfect solution for some privacy issues.<br>
+                                    It doesn't have to be a big/expensive server. A Raspberry Pi can host anything you
+                                    need.<br>
+                                    <br>
+                                    Interest in having a virtualization management software like proxmox for more
+                                    services/performance or do you have a large family and therefore many users, you
+                                    should invest a bit more to achieve your goal.
+                                    A Raspberry Pi is not a good option for this.
+                                </p>
+                                <br>
+                                <br>
+                                <br>
+                                <h2>Some examples what you can achieve with your own server</h2>
+                                <ul>
+                                    <li>Create your own virtual private network (VPN)</li>
+                                    <li>Use your own cloud server like Dropbox, Google Drive ...</li>
+                                    <li>Your own email server</li>
+                                    <li>Parental control</li>
+                                    <li>Block advertisements for all your devices, e.g. TVs, IoT devices, etc.</li>
+                                    <li>and much more to keep your data where it belongs - at Home</li>
+                                </ul>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fa fa-times mr-1"></i>
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2-->
+    <div class="services-modal modal fade" id="servicesModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
+                </div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h1 class="text-uppercase">What privacy issues has my phone?</h1>
+                                <p class="item-intro text-muted">
+                                    Applications like browsers, email services, games, online banking - and plenty more
+                                    - collect as much information from your device as possible. (There’s money to be
+                                    made from your personal data and they try hard to gather it all).<br>
+                                </p>
+                                <br>
+                                <p>
+                                    When you use your phone, a lot of unwanted digital traffic can be already blocked by
+                                    your private server. But it is still vital to modify each device so that they
+                                    connect to your server safely.<br>
+                                    Fine-tuning of the connection and privacy settings of your devices should
+                                    be completed regularly. So keep an eye on <a href="/news">our</a> and other
+                                    important news and keep your devices always up to date!
+                                    <br>
+                                    <br>
+                                    Android devices are "easy" for privacy fanatics to change. You should think about
+                                    this before you buy a new phone. Follow the <a
+                                        href="https://wiki.lineageos.org/devices/" target="blank"
+                                        rel="external nofollow noopener">LineageOS</a> supported list and select one of
+                                    them.<br>
+                                    <br>
+                                    If you don't want to use many applications and would like to test a few things, take
+                                    a look at Pine64's <a href="https://pine64.com/product-category/smartphones/"
+                                        target="blank" rel="external nofollow noopener">PinePhone</a> which is mainly
+                                    based on Linux.
+                                </p>
+                                <br>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fa fa-times mr-1"></i>
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 3-->
+    <div class="services-modal modal fade" id="servicesModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
+                </div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h1 class="text-uppercase">My desktop has privacy issues too?</h1>
+                                <p class="item-intro text-muted">Same as your phone: Applications like browsers, email
+                                    services, games, online banking - and plenty more - collect as much information from
+                                    your device as possible. (There’s money to be made from your personal data and they
+                                    try hard to gather it all).<br></p>
+                                <p>
+                                    There are a number of solutions you can try. Start to optimize your Mac and Windows
+                                    computer so that the companies can't catch all your privacy information.<br>
+                                    Or, because open source is our philosophy, we suggest to avoid all mainstream
+                                    companies and start with Linux.<br>
+                                    <br>
+                                    Software should be open source so that everyone is able to see what happens behind
+                                    the scene. Windows & Co. do not provide the source code. So you have to trust them.
+                                    We all know from the past that this is not a good idea.<br>
+                                    <br>
+                                    There are so many Linux distributions you can choose from. Use them &#128521;
+                                <ul>
+                                    <li><a href="https://archlinux.org/" target="blank"
+                                            rel="external nofollow noopener">Arch Linux</a> - install only software that
+                                        you really use</li>
+                                    <li><a href="https://rockylinux.org/" target="blank"
+                                            rel="external nofollow noopener">Rocky Linux</a> - Rocky Linux as a
+                                        production-ready alternative to CentOS, as CentOS has recently been "redesigned"
+                                        for testing patches and updates
+                                    </li>
+                                    <li><a href="https://www.qubes-os.org/" target="blank"
+                                            rel="external nofollow noopener">Qubes OS</a> - desktop system with good
+                                        privacy and security based on virtualization technology</li>
+                                    <li><a href="https://linuxmint.com/" target="blank"
+                                            rel="external nofollow noopener">Linux Mint</a> - easy to learn for Linux
+                                        beginners coming e.g. from a Windows computer</li>
+                                    <li><a href="https://www.debian.org" target="blank"
+                                            rel="external nofollow noopener">Debian</a> - most Linux distributions are
+                                        based on Debian. Known for it's stability and it's integration of 100% free
+                                        software.</li>
+                                </ul>
+                                <br>
+                                Check <a href="https://distrowatch.com/" target="blank"
+                                    rel="external nofollow noopener">distrowatch.com</a> for other Linux distributions.
+                                </p>
+                                <br>
+                                <br>
+                                <br>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fa fa-times mr-1"></i>
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 4-->
+    <div class="services-modal modal fade" id="servicesModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
+                </div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">Why are backups so important?</h2>
+                                <p class="item-intro text-muted">
+                                    Data loss. It could be a document you’ve been working
+                                    on for hours being deleted instead of saved. Or it could be a system failure which
+                                    wipes everything. Or a fire, or theft, or spilt cup of coffee. The feelings are
+                                    usually the same: horror, fear, regret.</p>
+                                <p>
+                                    This is a very important step, which is why we included it too. Not only to back up
+                                    your data, but also to keep your loooong learning journey safe at all times.<br>
+                                    Remember to learn how to backup as soon as possible. It can be very annoying to
+                                    start from scratch again and again. But if you don't have backups, you can also
+                                    learn fater
+                                    &#128521;
+                                </p>
+                                <br>
+                                <br>
+                                <br>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fa fa-times mr-1"></i>
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Privacy End -->
+
+    <!-- Bootstrap core JS-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="js/jquery.easing.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

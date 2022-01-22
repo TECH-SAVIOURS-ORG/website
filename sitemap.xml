@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://techsaviours.org/</loc>
+  <lastmod>2021-12-04T23:48:33+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://techsaviours.org/news/en</loc>
+  <lastmod>2022-01-01T02:38:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://techsaviours.org/index-de.html</loc>
+  <lastmod>2021-12-04T23:50:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://techsaviours.org/news/en/blog/log4shell-5-eyes-published-a-scanner-for-everyone</loc>
+  <lastmod>2022-01-01T02:38:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://techsaviours.org/news/en/tag:vulnerabilities</loc>
+  <lastmod>2022-01-01T02:38:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://techsaviours.org/news/en/blog/merry-christmas-everyone</loc>
+  <lastmod>2022-01-01T02:38:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://techsaviours.org/news/en/blog/python-3-10-is-out-rebuild-your-packages</loc>
+  <lastmod>2022-01-01T02:38:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://techsaviours.org/news/en/tag:python</loc>
+  <lastmod>2022-01-01T02:38:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://techsaviours.org/news/en/tag:arch</loc>
+  <lastmod>2022-01-01T02:38:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://techsaviours.org/news/en/blog/our-news-blog-is-online-with-grav</loc>
+  <lastmod>2022-01-01T02:38:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://techsaviours.org/news/en/tag:TECH%20SAVIOURS</loc>
+  <lastmod>2022-01-01T02:38:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://techsaviours.org/news/en/tag:grav</loc>
+  <lastmod>2022-01-01T02:38:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://techsaviours.org/news/de</loc>
+  <lastmod>2022-01-01T02:38:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://techsaviours.org/news/de/blog/log4shell-5-eyes-published-a-scanner-for-everyone</loc>
+  <lastmod>2022-01-01T02:38:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://techsaviours.org/news/de//tag:vulnerabilities</loc>
+  <lastmod>2022-01-01T02:38:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://techsaviours.org/news/de/blog/merry-christmas-everyone</loc>
+  <lastmod>2022-01-01T02:38:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://techsaviours.org/news/de/blog/python-3-10-is-out-rebuild-your-packages</loc>
+  <lastmod>2022-01-01T02:38:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://techsaviours.org/news/de//tag:python</loc>
+  <lastmod>2022-01-01T02:38:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://techsaviours.org/news/de//tag:arch</loc>
+  <lastmod>2022-01-01T02:38:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://techsaviours.org/news/de/blog/our-news-blog-is-online-with-grav</loc>
+  <lastmod>2022-01-01T02:38:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://techsaviours.org/news/de//tag:TECH%20SAVIOURS</loc>
+  <lastmod>2022-01-01T02:38:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://techsaviours.org/news/de//tag:grav</loc>
+  <lastmod>2022-01-01T02:38:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://techsaviours.org/news/de/tag:vulnerabilities</loc>
+  <lastmod>2022-01-01T02:38:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://techsaviours.org/news/de/tag:python</loc>
+  <lastmod>2022-01-01T02:38:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://techsaviours.org/news/de/tag:arch</loc>
+  <lastmod>2022-01-01T02:38:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://techsaviours.org/news/de/tag:TECH%20SAVIOURS</loc>
+  <lastmod>2022-01-01T02:38:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://techsaviours.org/news/de/tag:grav</loc>
+  <lastmod>2022-01-01T02:38:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://techsaviours.org/news/en//tag:vulnerabilities</loc>
+  <lastmod>2022-01-01T02:38:12+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://techsaviours.org/news/en//tag:python</loc>
+  <lastmod>2022-01-01T02:38:12+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://techsaviours.org/news/en//tag:arch</loc>
+  <lastmod>2022-01-01T02:38:12+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://techsaviours.org/news/en//tag:TECH%20SAVIOURS</loc>
+  <lastmod>2022-01-01T02:38:12+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://techsaviours.org/news/en//tag:grav</loc>
+  <lastmod>2022-01-01T02:38:12+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+
+
+</urlset>
