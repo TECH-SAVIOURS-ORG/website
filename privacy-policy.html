@@ -12,8 +12,9 @@
     <link rel="icon" type="image/x-icon" href="assets/img/org-favicon.webp" />
 
     <!-- Fork Awesome icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css"
-        integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/fork-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css"
+        integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous"> -->
     <!-- Core theme CSS (includes Bootstrap)-->
     <link rel="preload, stylesheet" href="css/styles.css" as="style" />
 
@@ -63,6 +64,12 @@
                 <a id="server"></a>
                 <span class="section-heading-lower">Privacy Policy</span>
             </h1>
+            <p>Last updated: April 23, 2022
+                <br>
+                Changes to the previous <em>Privacy Policy</em> can be reviewed at <a
+                    href="https://git.techsaviours.org/.ORG/website/commits/branch/master/privacy-policy.html">our
+                    git instance</a>.
+            </p>
             <br>
             <h2>Brief overview</h2>
             <p>
@@ -82,6 +89,14 @@
                     engine</li>
                 <li><a href="https://git.techsaviours.org">https://git.techsaviours.org</a> - Gitea
                     instance</li>
+                <li><a href="https://meet.techsaviours.org">https://meet.techsaviours.org</a> - Jitsi
+                    instance</li>
+                <li><a href="https://piped.techsaviours.org">https://piped.techsaviours.org</a> - Piped
+                    instance</li>
+                <li><a href="https://wiki.techsaviours.org">https://wiki.techsaviours.org</a> - Wiki (Tutorials/Guide)
+                </li>
+                <li><a href="https://wiki.techsaviours.org/en/desktop/services/dnscrypt">DNSCrypt</a> - Anonymizes
+                    communications between a DNS client and a DNS resolver</li>
             </ul>
             <br>
             <small>(If a service is not yet listed above but is already available, please do not enter
@@ -105,8 +120,12 @@
             <h4>Cookies</h4>
             <p>
                 <strong>https://techsaviours.org</strong>
+                <br>
+                <strong>https://techsaviours.org/news</strong>
+                <br>
+                <strong>https://piped.techsaviours.org</strong>
             </p>
-            <p style="text-align: left;">We don't use any cookies at our main domain.</p>
+            <p style="text-align: left;">We don't use any cookies at our main, news & piped domain/service.</p>
             <hr>
             <p>&nbsp;</p>
             <p><strong>https://searx.techsaviours.org</strong></p>
@@ -155,10 +174,36 @@
             <p>{session-cookie:_csrf}</p>
             <hr>
             <p>&nbsp;</p>
-            <p><strong>https://chat.techsaviours.org</strong></p>
+            <p><strong>https://wiki.techsaviours.org</strong></p>
+            <p>The wiki needs the following cookie:</p>
+            <p>{session-cookie:DokuWiki}</p>
+            <hr>
+            <p>&nbsp;</p>
+            <strong>Matrix users</strong>
+            <br>
+            <br>
+            <br>
+            <p>
+                If you use the TECH SAVIOURS Matrix instance, the Administrator/s does have access to:
+                <br>
+            <ul style="text-align: left;">
+                <li>Synapse stores your IP address that you last used to connect to our servers. We delete this after 24
+                    hours (It doesn't get any lower than that).</li>
+                <li>Your email address, attached to your account (email verification).</li>
+                <li> The plain text file name of attachments you send (the data itself is encrypted, and we cannot view
+                    any of your encrypted data).</li>
+                <li>Any plain text data that you exchange on the TECH SAVIOURS instance.</li>
+                <li>The data we have access to is no different to that of any other Matrix instance that you might use.
+                </li>
+            </ul>
+            </p>
+            <br>
+            <br>
+            <p><strong>https://chat.techsaviours.org (element)</strong></p>
             <p>Chat needs the following cookie:</p>
             <p>{localStorage}</p>
-            <p></p>
+            <br>
+            <br>
             <br>
             <h4>Analytics</h4>
             <p>
@@ -167,24 +212,20 @@
             <br>
             <h4>Embedded content from other websites</h4>
             <p>
-                Articles on this site may include embedded content (e.g. videos, images, articles,
-                etc.). Embedded
-                content from other websites behaves in the exact same way as if the visitor has visited
-                the other
-                website.
+                Articles on this site, news and services may include embedded content (e.g. videos, images, articles,
+                etc.). Embedded content from other websites behaves in the exact same way as if the visitor has visited
+                the other website.
                 <br>
                 These websites may collect data about you, use cookies, embed additional third-party
-                tracking, and
-                monitor your interaction with that embedded content, including tracing your interaction
-                with the
-                embedded content if you have an account and are logged in to that website.
+                tracking, and monitor your interaction with that embedded content, including tracing your interaction
+                with the embedded content if you have an account and are logged in to that website.
             </p>
             <br>
-            <h3>Who we share your data with / Where we send your data</h3>
+            <h3>Provider for domain and server</h3>
             <p>
-                Our website <a href="https://techsaviours.org">https://techsaviours.org</a> is hosted by
-                Netcup -
-                Germany.
+                Our website <a href="https://techsaviours.org">https://techsaviours.org</a> and all our <a
+                    href="index.html#freeservices">services</a> are hosted by
+                Netcup - Germany.
                 <br>
                 Netcup – <a href="https://netcup.eu/kontakt/datenschutzerklaerung.php" target="blank"
                     rel="external nofollow noopener">Privacy Policy</a>
@@ -211,47 +252,36 @@
             <h4>How we protect your data</h4>
             <p>
                 Our devices, which we’re sending, writing to you with your personal details (email
-                traffic, text,
-                questions etc.) are encrypted. That means, if someone steal or if we loose our devices
-                it’ll be hard
-                for everyone to get access to our data/your data. We’re using Linux at our Desktop
-                devices which are
-                encrypted with LUKS. And we’re using Andorid and Linux Phones which are encrypted as
-                well and free
-                of Google
-                with Open Source Software. If we’re using proprietary software they’re blocked with a
-                firewall or hasn’t
-                any internet aspiration.
+                traffic, text, questions etc.) are encrypted. That means, if someone steal or if we loose our devices
+                it’ll be hard for everyone to get access to our data/your data. We’re using Linux at our Desktop
+                devices which are encrypted with LUKS. And we’re using Andorid and Linux Phones which are encrypted as
+                well and free of Google with Open Source Software. If we’re using proprietary software they’re blocked
+                with a firewall or hasn’t any internet aspiration.
+                <br>
+                <br>
+                The servers are also encrypted with LUKS.
             </p>
             <br>
             <br>
             <h3>Third party links</h3>
             <p>
                 Occasionally, at our discretion, we may include or offer third party products or
-                services on our
-                site. These third party sites have separate and independent privacy policies. We
-                therefore have no
-                responsibility or liability for the content and activities of these linked sites.
-                Nonetheless, we
-                seek to protect the integrity of our site and welcome any feedback about these sites.
+                services on our site. These third party sites have separate and independent privacy policies. We
+                therefore have no responsibility or liability for the content and activities of these linked sites.
+                Nonetheless, we seek to protect the integrity of our site and welcome any feedback about these sites.
             </p>
             <br>
             <br>
             <h3>Do we disclose any information to outside parties?</h3>
             <p>
                 We do not sell, trade, or otherwise transfer to outside parties your personally
-                identifiable
-                information. This does not include trusted third parties who assist us in operating our
-                site,
-                conducting our business, or servicing you, so long as those parties agree to keep this
-                information
-                confidential. We may also release your information when we believe release is
-                appropriate to comply
-                with the law, enforce our site policies, or protect ours or others rights, property, or
-                safety.
+                identifiable information. This does not include trusted third parties who assist us in operating our
+                site, conducting our business, or servicing you, so long as those parties agree to keep this
+                information confidential. We may also release your information when we believe release is
+                appropriate to comply with the law, enforce our site policies, or protect ours or others rights,
+                property, or safety.
                 However, non-personally identifiable visitor information may be provided to other
-                parties for
-                marketing, advertising, or other uses.
+                parties for marketing, advertising, or other uses.
             </p>
         </div>
     </header>
