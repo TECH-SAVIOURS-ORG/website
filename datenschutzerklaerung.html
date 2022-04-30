@@ -35,7 +35,7 @@
                 <ul class="navbar-nav text-uppercase ml-auto">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/news/de">News</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger"
-                            href="https://wiki.techsaviours.org/de">Wiki</a></li>
+                        href="https://wiki.techsaviours.org/de/wiki">Wiki</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html#services">Warum?</a>
                     </li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html#tutorials">Tutorials</a>
@@ -64,6 +64,12 @@
                 <a id="server"></a>
                 <span class="section-heading-lower">Datenschutzerklärung</span>
             </h1>
+            <p>Aktualisiert am 30. April 2022.
+                <br>
+                Änderungen zu der vorherigen Version der <em>Datenschutzerklärung</em> können auf <a
+                    href="https://git.techsaviours.org/.ORG/website/commits/branch/master/datenschutzerklaerung.html">unserer
+                    git instance</a> eingesehen werden.
+            </p>
             <br>
             <h2>Kurze Übersicht</h2>
             <p>
@@ -72,8 +78,7 @@
                 Webseite richtet sich an all jene, die ihre Privatsphäre in ihrem
                 <b><a style="color: #2bbe06;">EIGENEN</a></b> Haus und Geld sparen möchten.
                 Sie ist eine kostenlose Konversations-/Beratungs- und Lernplattform, um das
-                Ziel zu
-                erreichen.
+                Ziel zu erreichen.
                 <br />
             </p>
             <p style="text-align: left;">Wir bieten auch einige <b><u>kostenfreie</u></b>
@@ -88,15 +93,19 @@
                 <li><a href="https://git.techsaviours.org">https://git.techsaviours.org</a>
                     - Gitea
                     instance</li>
+                <li><a href="https://meet.techsaviours.org">https://meet.techsaviours.org</a> - Jitsi
+                    instance</li>
+                <li><a href="https://piped.techsaviours.org">https://piped.techsaviours.org</a> - Piped
+                    instance</li>
+                <li><a href="https://wiki.techsaviours.org">https://wiki.techsaviours.org</a> - Wiki (Tutorials/Guide)
+                </li>
+                <li><a href="https://wiki.techsaviours.org/en/desktop/services/dnscrypt">DNSCrypt</a> - Anonymisiert
+                    Kommunikation zwischen einem DNS-Client und einem DNS-Resolver</li>
             </ul>
             <br />
             <small>(Wenn ein Service oben in der Liste noch nicht aufgeführt wird, aber
-                bereits
-                verfügbar ist,
-                gehe nicht auf die Webseite bzw. benutze den Service nicht, wenn Du unsere
-                Services
-                nicht
-                traust. Warte bis die Datenschutzerklärung aktualisiert wird!)</small>
+                bereits verfügbar ist, gehe nicht auf die Webseite bzw. benutze den Service nicht, wenn Du unsere
+                Services nicht traust. Warte bis die Datenschutzerklärung aktualisiert wird!)</small>
             <br />
             <br />
             <!-- Weitere bezahlte und lokale Serices findest Du unter
@@ -114,8 +123,15 @@
             <h3>Welche persönlichen Daten wir sammeln und warum wir sie sammeln</h3>
             <br />
             <h4>Cookies</h4>
+            <p>Cookies können "dauerhafte" oder "Session"-Cookies sein. Dauerhafte Cookies verbleiben auf dem Computer
+                oder Mobilgerät, wenn man offline geht, während Sessioncookies gelöscht werden, sobald der Webbrowser
+                geschlossen wird.</p>
             <p>
                 <strong>https://techsaviours.org</strong>
+                <br>
+                <strong>https://techsaviours.org/news</strong>
+                <br>
+                <strong>https://piped.techsaviours.org</strong>
             </p>
             <p style="text-align: left;">Auf unserer Hauptdomain verwenden wir keine
                 Cookies.</p>
@@ -123,20 +139,16 @@
             <p>&nbsp;</p>
             <p><strong>https://searx.techsaviours.org</strong></p>
             <p style="text-align: left;">Wir verwenden keine Cookies bei
-                searx.techsaviours.org, aber
-                nur, wenn Sie die Standardoptionen verwenden.<br />
-                Wenn Du die "Einstellungen -
-                https://searx.techsaviours.org/preferences" änderst, müssen wir Cookies auf
-                deinem PC
-                speichern. Andernfalls musst Du die Option jedes Mal ändern.<br />
-                Was wir speichern, findst Du unter "
-                https://searx.techsaviours.org/preferences - cookie"
+                searx.techsaviours.org, aber nur, wenn Sie die Standardoptionen verwenden.<br />
+                Wenn Du die "Einstellungen - https://searx.techsaviours.org/preferences" änderst, müssen wir Cookies auf
+                deinem PC speichern. Andernfalls musst Du die Option jedes Mal ändern.<br />
+                Was wir speichern, findst Du unter "https://searx.techsaviours.org/preferences - cookie"
                 (nach dem Speichern der neuen Einstellungen).
-                Selbst wenn Du also einige Optionen änderst, tracken wir dich nicht
-                und speichern auch keine Daten von dir.<br />
+                Selbst wenn Du also einige Optionen änderst, tracken wir dich nicht und speichern auch keine Daten von
+                dir.
                 <br />
-                Die folgende Liste zeigt, welche Art von Cookies für deine neuen
-                Einstellungen notwendig
+                <br />
+                Die folgende Liste zeigt, welche Art von Cookies für deine neuen Einstellungen notwendig
                 sind:
             </p>
             <ol>
@@ -173,11 +185,42 @@
             <p>{session-cookie:_csrf}</p>
             <hr>
             <p>&nbsp;</p>
-            <p><strong>https://chat.techsaviours.org</strong></p>
-            <p>Chat benötigt die folgenden Cookies:</p>
+            <p><strong>https://meet.techsaviours.org</strong></p>
             <p>{localStorage}</p>
+            <hr>
+            <p>&nbsp;</p>
+            <p><strong>https://wiki.techsaviours.org</strong></p>
+            <p>Das Wiki benötigt die folgenden Cookies:</p>
+            <p>{session-cookie:DokuWiki}</p>
+            <hr>
+            <p>&nbsp;</p>
+            <strong>Matrix users</strong>
+            <br>
+            <br>
+            <br>
+            <p>
+                Wenn du die TECH SAVIOURS Matrix-Instanz verwendest, hat der/die Administrator/en Zugang zu:
+                <br>
+            <ul style="text-align: left;">
+                <li>Synapse speichert die IP-Adresse die du zuletzt für die Verbindung zu unseren Servern verwendet
+                    hast. Wir löschen diese nach 24 Stunden (schneller geht es nicht).</li>
+                <li>Die E-Mail Adresse, die mit deinem Konto verbunden ist (E-Mail-Verifizierung).</li>
+                <li>Die Klartext-Dateinamen der von dir gesendeten Anhänge (die Daten selbst sind verschlüsselt und wir
+                    können diese nicht einsehen).</li>
+                <li>Alle Klartextdaten, die du auf der TECH SAVIOURS- Instanz austauscht.</li>
+                <li>Die Daten auf die wir Zugriff haben, unterscheiden sich nicht von denen jeder anderer
+                    Matrix-Instanzen, die du möglicherweise nutzt.
+                </li>
+            </ul>
             </p>
-            <br />
+            <br>
+            <br>
+            <p><strong>https://chat.techsaviours.org (element)</strong></p>
+            <p>Der Chat benötigt die folgenden Cookies:</p>
+            <p>{localStorage}</p>
+            <br>
+            <br>
+            <br>
             <h4>Analytics</h4>
             <p>
                 Wir verwenden keine analytic tools.
@@ -186,16 +229,12 @@
             <h4>Eingebettete Inhalte von anderen Webseiten</h4>
             <p>
                 Artikel auf dieser Website können eingebettete Inhalte (z.B. Videos, Bilder,
-                Artikel
-                usw.) enthalten. Eingebetteter Inhalt von anderen Websites verhält sich
-                genau so, als ob
-                der Besucher die andere Website besucht hätte.
+                Artikel usw.) enthalten. Eingebetteter Inhalt von anderen Websites verhält sich
+                genau so, als ob der Besucher die andere Website besucht hätte.
                 Diese Websites können Daten über Sie sammeln, Cookies verwenden, zusätzliche
                 Nachverfolgung durch Dritte einbetten und Ihre Interaktion mit diesem
-                eingebetteten
-                Inhalt überwachen, einschließlich der Nachverfolgung Ihrer Interaktion mit
-                dem
-                eingebetteten Inhalt, wenn Sie ein Konto haben und auf dieser Website
+                eingebetteten Inhalt überwachen, einschließlich der Nachverfolgung Ihrer Interaktion mit
+                dem eingebetteten Inhalt, wenn Sie ein Konto haben und auf dieser Website
                 eingeloggt sind.
             </p>
             <br />
@@ -229,60 +268,42 @@
             <h4>Wie wir deine Daten schützen</h4>
             <p>
                 Unsere Geräte, mit denen wir mit dir und deinen persönlichen Daten
-                (E-Mail-Verkehr,
-                Text, Fragen
-                usw.) schreiben, sind verschlüsselt. Das heisst, wenn jemand unsere Geräte
-                stiehlt oder
-                wenn wir sie verlieren, wird es für jeden schwer sein, Zugang zu unseren
-                Daten/deinen
-                Daten zu erhalten. Wir benutzen Linux auf unseren Desktop-Geräten, die mit
-                LUKS
-                verschlüsselt sind. Und wir benutzen Android- und Linux-Telefone, die
-                ebenfalls
-                verschlüsselt und frei von Google mit auschliesslich Open-Source-Software
-                betrieben
-                werden.
+                (E-Mail-Verkehr, Text, Fragen usw.) schreiben, sind verschlüsselt. Das heisst, wenn jemand unsere Geräte
+                stiehlt oder wenn wir sie verlieren, wird es für jeden schwer sein, Zugang zu unseren
+                Daten/deinen Daten zu erhalten. Wir benutzen Linux auf unseren Desktop-Geräten, die mit
+                LUKS verschlüsselt sind. Und wir benutzen Android- und Linux-Telefone, die
+                ebenfalls verschlüsselt und frei von Google mit auschliesslich Open-Source-Software
+                betrieben werden.
                 Wenn wir Geschützte Software verwenden, werden sie mit einer Firewall
-                blockiert oder
-                haben keinen
-                Anspruch auf Internet.
+                blockiert oder haben keinen Anspruch auf Internet.
+                <br>
+                <br>
+                Die Server sind ebenfalls mit LUKS verschlüsselt..
             </p>
             <br />
             <br />
             <h3>Links von Dritten</h3>
             <p>
                 Gelegentlich können wir nach unserem Ermessen Produkte oder Dienstleistungen
-                Dritter auf
-                unserer Website aufnehmen oder anbieten. Diese Websites von Drittanbietern
-                haben
-                separate und unabhängige Datenschutzrichtlinien. Wir haben daher keine
-                Verantwortung
-                oder Haftung für den Inhalt und die Aktivitäten dieser verlinkten Websites.
+                Dritter auf unserer Website aufnehmen oder anbieten. Diese Websites von Drittanbietern
+                haben separate und unabhängige Datenschutzrichtlinien. Wir haben daher keine
+                Verantwortung oder Haftung für den Inhalt und die Aktivitäten dieser verlinkten Websites.
                 Nichtsdestotrotz sind wir bestrebt, die Integrität unserer Website zu
-                schützen und
-                begrüßen jedes Feedback zu diesen Websites.
+                schützen und begrüßen jedes Feedback zu diesen Websites.
             </p>
             <br />
             <br />
             <h3>Geben wir Informationen an Dritte weiter?</h3>
             <p>
                 Wir verkaufen, tauschen oder übertragen Ihre persönlich identifizierbaren
-                Daten nicht an
-                Dritte. Davon ausgenommen sind vertrauenswürdige Dritte, die uns beim
-                Betrieb unserer
-                Website, bei der Durchführung unserer Geschäfte oder bei der Betreuung Ihrer
-                Kunden
-                unterstützen, solange diese Parteien sich verpflichten, diese Informationen
-                vertraulich
-                zu behandeln. Wir können Ihre Informationen auch freigeben, wenn wir der
-                Meinung sind,
-                dass eine Freigabe angemessen ist, um das Gesetz zu erfüllen, unsere
-                Website-Richtlinien
-                durchzusetzen oder unsere Rechte, unser Eigentum oder die Sicherheit anderer
-                zu
-                schützen. Nicht persönlich identifizierbare Besucherinformationen können
-                jedoch an
-                andere Parteien für Marketing, Werbung oder andere Zwecke weitergegeben
+                Daten nicht an Dritte. Davon ausgenommen sind vertrauenswürdige Dritte, die uns beim
+                Betrieb unserer Website, bei der Durchführung unserer Geschäfte oder bei der Betreuung Ihrer
+                Kunden unterstützen, solange diese Parteien sich verpflichten, diese Informationen
+                vertraulich zu behandeln. Wir können Ihre Informationen auch freigeben, wenn wir der
+                Meinung sind, dass eine Freigabe angemessen ist, um das Gesetz zu erfüllen, unsere
+                Website-Richtlinien durchzusetzen oder unsere Rechte, unser Eigentum oder die Sicherheit anderer
+                zu schützen. Nicht persönlich identifizierbare Besucherinformationen können
+                jedoch an andere Parteien für Marketing, Werbung oder andere Zwecke weitergegeben
                 werden.
             </p>
         </div>
