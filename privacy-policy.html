@@ -63,7 +63,7 @@
                 <a id="server"></a>
                 <span class="section-heading-lower">Privacy Policy</span>
             </h1>
-            <p>Last updated: April 23, 2022
+            <p>Last updated: June 26, 2022
                 <br>
                 Changes to the previous <em>Privacy Policy</em> can be reviewed at <a
                     href="https://git.techsaviours.org/.ORG/website/commits/branch/master/privacy-policy.html">our
@@ -201,6 +201,17 @@
                 <li>The data we have access to is no different to that of any other Matrix instance that you might use.
                 </li>
             </ul>
+            <br>
+            The retention period, sent messages and files, is set at 90 days. After that, everything will be deleted.<br><br>
+            <pre style="color: #e6a756; font-weight:bold">
+media_retention:
+    local_media_lifetime: 90d
+    remote_media_lifetime: 90d
+    
+retention:
+    default_policy:
+        max_lifetime: 90d
+            </pre>
             </p>
             <br>
             <br>

@@ -64,7 +64,7 @@
                 <a id="server"></a>
                 <span class="section-heading-lower">Datenschutzerklärung</span>
             </h1>
-            <p>Aktualisiert am 30. April 2022.
+            <p>Aktualisiert am 26. Juni 2022.
                 <br>
                 Änderungen zu der vorherigen Version der <em>Datenschutzerklärung</em> können auf <a
                     href="https://git.techsaviours.org/.ORG/website/commits/branch/master/datenschutzerklaerung.html">unserer
@@ -212,6 +212,17 @@
                     Matrix-Instanzen, die du möglicherweise nutzt.
                 </li>
             </ul>
+            <br>
+            Die Historie, gesendeter Nachrichten und Dateien, ist auf 90 Tage festgelegt. Danach wird alles gelöscht.<br><br>
+            <pre style="color: #e6a756; font-weight:bold">
+media_retention:
+    local_media_lifetime: 90d
+    remote_media_lifetime: 90d
+    
+retention:
+    default_policy:
+        max_lifetime: 90d
+            </pre>
             </p>
             <br>
             <br>
