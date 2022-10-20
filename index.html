@@ -61,9 +61,15 @@
 
         <!-- INFO ALERT -->
         <div class="alert alert-info alert-dismissible fade show" role="info">
-            <strong>Matrix maintenance work</strong><br>
-                It's time for another round for Matrix to minimize the size of the database, which has reached 70 GB.
-                This is scheduled for Wednesday, October 12 at about 5pm New Zealand time.
+            <strong>Matrix moves to another server</strong><br>
+            In the next few days and especially over the coming weekend, the Matrix server will move to another server
+            (probably the other services as well). Expect a longer interruption.<br>
+            <br>
+            This includes a proper pruning of the database to minimize the size again. If the database does not drop
+            below 40 GB, the entire service is no longer supported. This is because the Matrix instance requires a
+            server with more storage, which is not included in this server budget.<br>
+            <br>
+            Check the <a href="https://status.techsaviours.org/status/org">status page</a> for updates during the process.
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
             </button>
