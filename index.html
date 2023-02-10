@@ -60,6 +60,20 @@
     <header class="masthead">
 
         <!-- INFO ALERT -->
+        <div class="alert alert-danger alert-dismissible fade show" role="info">
+            <strong>PostgreSQL Major Update<br></strong>
+            The next server update ("Wednesday around 5pm NZ time (8am UTC)") includes a few hours of downtime.
+            The reason is not really the major update of PostgreSQL. But we take the opportunity to clean up the
+            database at the same time (especially for Matrix).
+
+            This means that Matrix and our Git instance will be unavailable during this process.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <!-- INFO END -->
+
+        <!-- INFO ALERT -->
         <div class="alert alert-info alert-dismissible fade show" role="info">
             <strong>New Tutorials added to the wiki:<br> <a href="https://wiki.techsaviours.org/en/extras/firefly3">Your
                     own open source finance tool - FireFly III</a> (<a
