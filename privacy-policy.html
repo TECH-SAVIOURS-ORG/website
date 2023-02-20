@@ -202,7 +202,19 @@
                 </li>
             </ul>
             <br>
-            The retention period, sent messages and files, is set at 90 days. After that, everything will be deleted.<br><br>
+            <strong>Retention is on hold since about December 2022 until further notice</strong><br>
+            <small>The reason for this is a bug that screws up the database.</small><br>
+            <br>
+            <q>Please note that, as this feature isn't part of the Matrix specification yet, this
+                implementation is to be considered as experimental. There are known bugs which may cause database
+                corruption. Proceed with caution.</q><br>
+            <br>
+            Source: <a href="https://github.com/matrix-org/synapse/blob/develop/docs/message_retention_policies.md"
+                target="blank" rel="external nofollow noopener">message_retention_policies.md</a>
+            <br>
+            <br>
+            The retention period, sent messages and files, is set to 90 days. After that, everything will be
+            deleted.<br><br>
             <pre style="color: #e6a756; font-weight:bold">
 media_retention:
     local_media_lifetime: 90d
@@ -273,9 +285,6 @@ retention:
                 devices which are encrypted with LUKS. And we’re using Andorid and Linux Phones which are encrypted as
                 well and free of Google with Open Source Software. If we’re using proprietary software they’re blocked
                 with a firewall or hasn’t any internet aspiration.
-                <br>
-                <br>
-                The servers are also encrypted with LUKS.
             </p>
             <br>
             <br>

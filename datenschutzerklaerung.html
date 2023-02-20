@@ -35,7 +35,7 @@
                 <ul class="navbar-nav text-uppercase ml-auto">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/news/de">News</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger"
-                        href="https://wiki.techsaviours.org/de/wiki">Wiki</a></li>
+                            href="https://wiki.techsaviours.org/de/wiki">Wiki</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html#services">Warum?</a>
                     </li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html#tutorials">Tutorials</a>
@@ -213,7 +213,19 @@
                 </li>
             </ul>
             <br>
-            Die Historie, gesendeter Nachrichten und Dateien, ist auf 90 Tage festgelegt. Danach wird alles gelöscht.<br><br>
+            <strong>Retention ist seit etwa Dezember 2022 bis auf weiteres auf Eis gelegt</strong><br>
+            <small>Der Grund dafür ist ein Bug, der die Datenbank beschädigen kann.</small><br>
+            <br>
+            <q>Bitte beachten Sie, dass diese Funktion noch nicht Teil der Matrix-Spezifikation ist und diese
+                Implementierung als experimentell zu betrachten ist. Es gibt bekannte Fehler, die eine Beschädigung der
+                Datenbank beschädigen können. Gehen Sie mit Vorsicht vor.</q><br>
+            <br>
+            Quelle: <a href="https://github.com/matrix-org/synapse/blob/develop/docs/message_retention_policies.md"
+                target="blank" rel="external nofollow noopener">message_retention_policies.md</a>
+            <br>
+            <br>
+            Die Historie, gesendeter Nachrichten und Dateien, ist auf 90 Tage festgelegt. Danach wird alles
+            gelöscht.<br><br>
             <pre style="color: #e6a756; font-weight:bold">
 media_retention:
     local_media_lifetime: 90d
@@ -287,9 +299,6 @@ retention:
                 betrieben werden.
                 Wenn wir Geschützte Software verwenden, werden sie mit einer Firewall
                 blockiert oder haben keinen Anspruch auf Internet.
-                <br>
-                <br>
-                Die Server sind ebenfalls mit LUKS verschlüsselt..
             </p>
             <br />
             <br />
